@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Shape Generator and Contacts List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="container">
+    <section id="generator">
+      <h2>Number Shape Generator</h2>
+      <button onclick="getNumber()">Enter Number</button>
+      <div class="output" id="output"></div>
+    </section>
+
+    <section id="contactList">
+      <h2>7-Person Contacts List</h2>
+      <input type="text" id="contactInput" placeholder="Enter name" />
+      <button onclick="addContact()">Add</button>
+      <button onclick="removeContact()">Remove</button>
+      <div class="contactList" id="contacts"></div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
